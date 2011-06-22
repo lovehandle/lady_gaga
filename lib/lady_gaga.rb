@@ -1,0 +1,3 @@
+module LadyGaga
+  # Your code goes here...
+end
