@@ -16,7 +16,8 @@ Gem::Specification.new do |s|
 
   {
     'httparty'            => '~> 0.7.7',
-    'nokogiri'            => '~> 1.4.4'
+    'nokogiri'            => '~> 1.4.4',
+    'activesupport'      => '~> 2.3.10'
   }.each {|lib, version| s.add_runtime_dependency lib, version }
 
   {
