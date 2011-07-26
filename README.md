@@ -1,6 +1,8 @@
 Lady Gaga
 ======
 
+[![travis](https://secure.travis-ci.org/rclosner/lady_gaga.png)](http://travis-ci.org/rclosner/lady_gaga)
+
 Lady Gaga is a minimalistic, Nokogiri-based Ruby wrapper to the [Endicia Web Services API](http://www.endicia.com/Developers/).
 
 Currently the following APIs are supported:
