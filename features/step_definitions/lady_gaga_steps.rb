@@ -5,8 +5,8 @@ Given /^the following parameters:$/ do |table|
 end
 
 When /^I tape the "([^"]*)" request as: "([^"]*)"$/ do |service, operation|
-  @response = VCR.use_cassette("#{service}/#{operation}/#{cassette_name}", :record => :new_episodes) do
-    @request.post
+  VCR.use_cassette("#{service}/#{operation}/#{cassette_name}", :record => :new_episodes) do
+    @response = @request.post
   end
 end
 
